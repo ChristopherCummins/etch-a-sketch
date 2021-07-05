@@ -1,0 +1,1 @@
+This is an etch-a-sketch project as outlined by The Odin Project.
