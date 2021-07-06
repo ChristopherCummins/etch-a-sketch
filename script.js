@@ -1,4 +1,4 @@
-makeRows(16, 16);
+makeRows(16, 16); 
  
 const gridcontainer = document.getElementById("gridContainer");
 
@@ -28,8 +28,5 @@ output.innerHTML = slider.value;
 
 slider.oninput = function() {
   output.innerHTML=this.value;
-  makeRows(slider.value, slider.value);
+  gridcontainer.empty();
 }
-
-let cellSize = ((slider.value) / 100) + "%";
-console.log(cellSize);
