@@ -9,18 +9,14 @@
 <body>
     <div id = "title"><h1>Etch-A-Sketch</h1></div>
     <div id = "mainContainer">
-        <div id = "leftSide">
-            <button onclick="clearGrid()">Clear the Current Grid</button>
-            <button onclick="removeGrid()">Remove the Current Grid</button>
-
+            <button id = "resetButton" onclick="clearGrid()">Clear the Current Grid</button>
             <div class="slideContainer">
                 <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                    <p>Value: <span id="demo"></span></p>
+                    <p>Grid Size: <span id="demo"></span></p>
             </div>
-        </div>
         <div id = "gridContainer"></div>
     </div>
-    <script src=script.js>
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src=script.js></script>
 </body>
 </html>
