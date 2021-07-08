@@ -32,7 +32,7 @@ body {
   display: grid;
   max-width: 500px;
   min-height: 500px;
-  margin: 2rem auto;
+  margin: auto;
   border: 2px solid var(--border);
 }
 
@@ -106,7 +106,7 @@ body {
   background-color: #4CAF50; 
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
